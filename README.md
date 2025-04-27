@@ -11,11 +11,13 @@ This Todo List application allows users to manage their tasks. Users can add new
 - Display success and error messages
 - Delete tasks
 - Display spinner on API call
-- **Unit test cases-Total of 29**
-    ### Unit test case coverage
-    Test Suites: 9 passed, 9 total
-    Tests:       29 passed, 29 total
+- **Unit test cases-Total of 28**
+    ### Unit test case coverage - React Frontend
+    Test Suites: 8 passed, 8 total
+    Tests:       28 passed, 28 total
     Snapshots:   0 total
+    ### Unit test case coverage - Java Backend
+    Tests:       10 passed, 10 total
 
 ## Technologies Used
 
@@ -117,57 +119,23 @@ todolistapp/
 │                   └── TodoItemControllerTest.java
 
 ```
-## Frontend (React)
 
-1. **_components_** : This directory contains all application components.
-2. **_enum_** : This directory contains all enums
-3. **_feature_** : This directory contains list of the feature(current + deliverd)
-4. **_layouts_** : This directory contains list of the feature,tabs,page layouts
-5. **_pages_** : This directory contains list of the pages
-8. **_utils_** : This directory contains all common usefull functions.
-
-## Installation
-
-### Clone the repository:
-git clone <[repository_url](https://github.com/godwinanto91/todoList.git)>
+## Backend API - Start the backend app before Frontend app
 
 ### Open terminal and navigate to the frontend folder:
-cd <project_directory>
-cd frontend
-
-### Install dependencies:
-```sh
-npm i
-```
-### Start the application:
 
 ```sh
-npm start
-```
-### Running Unit Tests
-
-```sh
-$ npm test
-```
-
-## Usage
-
-- Access the application at `http://localhost:3000`.
-- Add new task by entering a description and clicking "Add Item".
-- Mark task as completed by clicking the "Mark as completed" button.
-- Delete task(s) by clicking the "Remove" button.
-- Refresh task(s) by clicking on "Refresh" button
-
-## Backend API
-
-### Open terminal and navigate to the frontend folder:
 cd <project_directory>
 cd backend
+```
 
 ### Start the application:
 
 ```sh
 ./gradlew build
+```
+
+```sh
 ./gradlew bootRun
 ```
 ### Running Unit Tests
@@ -185,6 +153,51 @@ The frontend interacts with a backend API to manage tasks. The API endpoints are
 - **GET /todoItems**: Get all tasks.
 - **PUT /todoItems/:id**: Update a task (mark as completed).
 - **DELETE /todoItems/:id**: Delete a task.
+
+## Frontend (React)
+
+1. **_components_** : This directory contains all application components.
+2. **_enum_** : This directory contains all enums
+3. **_feature_** : This directory contains list of the feature(current + deliverd)
+4. **_layouts_** : This directory contains list of the feature,tabs,page layouts
+5. **_pages_** : This directory contains list of the pages
+8. **_utils_** : This directory contains all common usefull functions.
+
+## Installation
+
+### Clone the repository:
+git clone <[repository_url](https://github.com/godwinanto91/todoList.git)>
+
+### Open terminal and navigate to the frontend folder:
+
+```sh
+cd <project_directory>
+
+cd frontend
+```
+
+### Install dependencies:
+```sh
+npm i
+```
+### Start the application:
+
+```sh
+npm start
+```
+### Running Unit Tests
+
+```sh
+npm test
+```
+
+## Usage
+
+- Access the application at `http://localhost:3000`.
+- Add new task by entering a description and clicking "Add Item".
+- Mark task as completed by clicking the "Mark as completed" button.
+- Delete task(s) by clicking the "Remove" button.
+- Refresh task(s) by clicking on "Refresh" button
 
 ## Contributors
 

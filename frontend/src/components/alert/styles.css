@@ -1,0 +1,15 @@
+.alert-box {
+  width: 600px;
+  padding: 0;
+  margin: 0 auto;
+  font-family: 'Omnes', Arial, sans-serif;
+}
+
+.alert-box__custom {
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+.alert-box__title {
+  font-weight: bold;
+}

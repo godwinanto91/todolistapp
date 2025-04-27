@@ -1,0 +1,9 @@
+/* styles.css */
+.custom-button {
+    margin-right: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.custom-button:hover {
+    opacity: 1;
+}

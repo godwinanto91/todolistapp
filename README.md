@@ -20,14 +20,23 @@ This Todo List application allows users to manage their tasks. Users can add new
     Tests:       10 passed, 10 total
 
 ## Technologies Used
+### Frontend
 
 - **React**: Frontend framework for building user interfaces.
-- **React Bootstrap**: Library for UI components.
-- **Axios**: Library for making HTTP requests.
-- **Node.js**: JavaScript runtime environment.
-- **Express**: Web framework for Node.js.
+- **React Bootstrap**: UI components styled with Bootstrap.
+- **Axios**: For making HTTP requests to the backend.
 - **dotenv**: Module to load environment variables from a .env file.
-- **Jest**: Jest test framework for unit testing.
+- **Jest & Testing Library**: Unit testing and DOM testing utilities for React.
+
+### Backend
+
+- **Java 17**: Core language used for backend logic.
+- **Spring Boot**: Backend framework for building RESTful APIs.
+- **Spring Data JPA**: For interacting with databases using repositories.
+- **H2 Database**: In-memory or file-based database for local development and testing.
+- **JUnit 5**: Unit testing framework used for backend tests.
+- **MockMvc**: Used for writing controller-level integration tests in Spring.
+- **ObjectMapper (Jackson)**: For JSON serialization/deserialization in tests.
 
 ## Repository Structure
 
